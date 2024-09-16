@@ -1,4 +1,4 @@
-# Applied Data Science Capstone: Winning the Space Race
+# Astro-Success-Analytics: Winning the Space Race
 
 This repository contains the final project for the **Applied Data Science Capstone**, where I applied data science techniques to analyze and predict success factors in the **Space Race**. This project follows the complete data science workflow, from data acquisition to machine learning model building and evaluation.
 
@@ -29,7 +29,7 @@ The **Space Race** was a 20th-century competition between two Cold War rivals, t
   
 2. Navigate to the project directory:
     ```bash
-    cd Applied-Data-Science-Capstone/
+    cd Astro-Success-Analytics/
 
 ## Conclusion
 
