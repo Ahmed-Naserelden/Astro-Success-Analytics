@@ -1,36 +1,109 @@
-# Astro-Success-Analytics: Winning the Space Race
+# SpaceX Launch Success Analytics
 
-This repository contains the final project for the **Applied Data Science Capstone**, where I applied data science techniques to analyze and predict success factors in the **Space Race**. This project follows the complete data science workflow, from data acquisition to machine learning model building and evaluation.
+This repository contains the final project for the **IBM Data Science Capstone**, focusing on analyzing and predicting SpaceX launch success rates. The project implements a complete data science workflow, from data collection to interactive visualization and predictive modeling.
+
+![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/lab_v2/images/crash.gif)
+
+## Project Structure
+
+```
+.
+├── Data Collection
+│   ├── Data-Collection-API.ipynb        # SpaceX API data collection
+│   └── Data-Collection-webscraping.ipynb # Web scraping for additional data
+├── Data Wrangling
+│   └── Data wrangling.ipynb             # Data cleaning and preprocessing
+├── Exploratory Data Analysis
+│   ├── Data_Visualization.ipynb         # Data visualization and analysis
+│   └── Explorator Data Analysis - SQL.ipynb # SQL-based analysis
+├── Interactive Visualization
+│   ├── spacex_dash_app.py              # Interactive Dash application
+│   └── Visual Analytics with Folium.ipynb # Geographical visualizations
+├── Predictive Analysis
+│   └── Machine_Learning_Prediction.ipynb # ML models for launch prediction
+└── Documentation
+    ├── IBM Data Science Capstone Project.pdf
+    └── IBM Data Science Capstone Project.pptx
+```
 
 ## Project Overview
-The **Space Race** was a 20th-century competition between two Cold War rivals, the Soviet Union and the United States, to achieve superior spaceflight capability. This project aims to explore key factors that contributed to the success of space missions and to predict the likelihood of success using machine learning techniques.
 
-![Space Race Visualization](https://th.bing.com/th/id/R.a771c09aaea5a9bb102295426694316c?rik=2Zhe0dRuf3II3Q&pid=ImgRaw&r=0)  <!-- Replace with your image file path -->
+This project analyzes SpaceX launch data to understand factors that contribute to successful rocket launches and predict future launch outcomes. The analysis includes:
 
-### Key Steps:
-1. **Data Collection**: Data was gathered from multiple sources, including historical records, space mission databases, and public datasets.
-2. **Data Wrangling**: The raw data was cleaned and pre-processed to handle missing values, outliers, and formatting inconsistencies.
-3. **Exploratory Data Analysis (EDA)**: Visualizations and statistical techniques were used to explore trends, patterns, and anomalies in the dataset.
-4. **Modeling**: Various machine learning algorithms, such as logistic regression, decision trees, and random forests, were applied to predict mission success.
-5. **Evaluation**: Model performance was evaluated using metrics like accuracy, precision, recall, and F1-score to determine the best-performing model.
+1. **Data Collection**
+   - Gathering launch data from SpaceX API
+   - Web scraping additional relevant information
+   - Compiling historical launch records
 
-## Key Technologies and Libraries
-- **Python**: Core programming language for data manipulation and modeling.
-- **Jupyter Notebooks**: For documenting and visualizing the analysis process.
-- **Pandas, NumPy**: Used for data manipulation, cleaning, and transformation.
-- **Matplotlib, Seaborn**: For data visualization and generating insightful plots.
-- **Scikit-learn**: For building and evaluating machine learning models.
+2. **Data Processing**
+   - Cleaning and preprocessing launch data
+   - Handling missing values and outliers
+   - Feature engineering for analysis
 
-## How to Run
+3. **Exploratory Analysis**
+   - Statistical analysis of launch success rates
+   - Visualization of launch patterns and trends
+   - SQL-based data exploration
+
+4. **Interactive Visualizations**
+   - Interactive dashboard using Dash
+   - Geographical launch site analysis with Folium
+   - Real-time data visualization
+
+5. **Predictive Modeling**
+   - Machine learning models for launch success prediction
+   - Model evaluation and comparison
+   - Feature importance analysis
+
+## Technical Stack
+
+- **Programming Languages**: Python, SQL
+- **Data Processing**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn, Plotly
+- **Interactive Dashboard**: Dash
+- **Geospatial Analysis**: Folium
+- **Machine Learning**: Scikit-learn
+- **Development Environment**: Jupyter Notebooks
+
+## Setup and Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ahmed-Naserelden/Applied-Data-Science-Capstone.git
-  
-2. Navigate to the project directory:
+   git clone https://github.com/yourusername/Astro-Success-Analytics.git
+   cd Astro-Success-Analytics
+   ```
+
+2. Install required packages
+
+3. Launch Jupyter Notebook:
     ```bash
-    cd Astro-Success-Analytics/
+   jupyter notebook
+   ```
 
-## Conclusion
+## Project Workflow
 
-This project showcases how data science techniques can be applied to historical data to predict outcomes in complex real-world scenarios like the Space Race. The insights gained can be used to understand what factors contributed most to mission success, providing a better understanding of space exploration challenges.
+1. Start with the Data Collection notebooks to gather the necessary data
+2. Use the Data Wrangling notebook to clean and prepare the data
+3. Explore the data using the Exploratory Data Analysis notebooks
+4. Run the interactive visualizations in the Interactive Visualization section
+5. Build and evaluate predictive models using the Machine Learning notebook
+
+## Key Findings
+
+[To be added based on your analysis results]
+
+## Future Improvements
+
+- [ ] Add real-time data updates
+- [ ] Implement additional machine learning models
+- [ ] Add automated testing
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
+
+## Acknowledgments
+
+- IBM Data Science Professional Certificate Program
+- SpaceX for providing the API
+- Open source community for various tools and libraries used in this project
